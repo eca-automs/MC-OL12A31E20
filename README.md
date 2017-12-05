@@ -6,30 +6,46 @@
 MCPX2015-SMD - PER16B-SMD
 
 ### Tipo impianto
-Fune
+Oleodinamico
 
 ### Manovra
-Tipo di manovra
+Universale.
 
 ### Collegamento vano / cabina
 Vano|Cabina
 ---|---
-tipo collegamento vano|  tipo collegamento cabina
+parallelo|  parallelo
 
 ### Operatore porte
-Tipo di operatore porte
+Manuale, automatico trifase, automatico elettronico.
 
 ### Avviamento / controllo motore
-Tipo di avviamento (VVVF, soft starter con specifiche modelli e marche).
+Avviamento diretto, stella triangolo, soft-starter (SMS-start).
 
 ### Potenza massima motore / taglie compatibili
-Inserire kw motore e specifiche varie legate alla potenza e/o l'elenco di taglie dei quadri compatibili con questo schema.
+#### Avviamento diretto
+Taglia|Potenza
+---|---
+S40|14CV-230VAC/22CV-400VAC
+
+#### Avviamento stella-triangolo
+Taglia|Potenza
+---|---
+S70|24CV-230VAC/43CV-400VAC
+
+
+#### Avviamento soft-starter
+Taglia|Potenza
+---|---
+S60|17CV-230VAC/35CV-400VAC
 
 ### Allarme
-Tipo di allarme
+12VDC, legge 13.
 
 ### Emergenza
-Tipo di emergenza
+Ritorno al piano con valvola a 12VDC senza apertura porte.
 
 ### Opzioni
-Elenco opzioni aggiuntive (emendamento A3, fossa o testata ridotta etc..)
+Gestione circuito manutenzione secondo normativa EN-8120.
+
+Gestione centralina secondo emendamento A3 tramite doppia valvola discesa controllata con BOX-A3 SMS.
